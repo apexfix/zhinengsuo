@@ -17,6 +17,7 @@ export async function fetchStoreAPI(path: string, options: RequestInit = {}) {
     headers: {
       "Content-Type": "application/json",
     },
+    next: { revalidate: 60 }, // Revalidate every 60 seconds
     ...options,
   });
 
