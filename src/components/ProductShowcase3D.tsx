@@ -23,7 +23,11 @@ interface ProductShowcase3DProps {
 }
 
 export function ProductShowcase3D({ products = [] }: ProductShowcase3DProps) {
-  const [activeIndex, setActiveIndex] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(() => {
+    if (!products || products.length === 0) return 0;
+    const targetIndex = products.findIndex(p => p.name.trim().toLowerCase() === "Smart lock installation service".toLowerCase());
+    return targetIndex !== -1 ? targetIndex : 0;
+  });
   const [isPaused, setIsPaused] = useState(false);
 
   useEffect(() => {
