@@ -12,10 +12,10 @@ export function ServiceFeatures() {
               <Wrench className="w-8 h-8" strokeWidth={1.5} />
             </div>
             <h3 className="text-[#c5a47e] font-bold tracking-widest text-sm uppercase">
-              Smart Lock Installation
+              Premium Smart Lock Solutions
             </h3>
             <p className="text-gray-400 text-sm leading-relaxed max-w-xs">
-              We are specialized in Smart Lock Installation. Our team has 5 years experience with 2000+ locks installed.
+              Backed by significant industry experience, our specialists deliver flawless lock installations designed for long-term reliability and peace of mind.
             </p>
           </div>
 
