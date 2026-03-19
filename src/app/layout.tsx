@@ -16,8 +16,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Smart Lock Store",
-  description: "Providing the safest smart lock solutions for you",
+  title: "Best Smart Lock Installation Adelaide | ADE Smart Home | 2-Year Warranty",
+  description: "Professional Smart Lock Installation in Adelaide. Specialized in Philips, Samsung & Yale. 350+ installs with neat-clean-flushed finish. 24-month warranty. Best price guaranteed in South Australia.",
+  keywords: ["Smart Lock Installation Adelaide", "Digital Lock Installer Adelaide", "Philips Smart Lock Australia", "Samsung Smart Lock Installation", "Locksmith Adelaide"],
+  openGraph: {
+    title: "ADE Smart Home | Expert Smart Lock Installation in Adelaide",
+    description: "Professional, neat, and secure smart lock solutions for Adelaide homes.",
+    url: "https://www.adesmarthome.com.au",
+    siteName: "ADE Smart Home",
+    locale: "en_AU",
+    type: "website",
+  },
 };
 
 export default function RootLayout({
